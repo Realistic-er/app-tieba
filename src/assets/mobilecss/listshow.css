@@ -1,0 +1,69 @@
+.listshow .list .box {
+  padding: 5px;
+  border-radius: 10px;
+}
+.listshow .list .box .header {
+  display: flex;
+}
+.listshow .list .box .header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+}
+.listshow .list .box .header .barinfo {
+  margin-left: 15px;
+}
+.listshow .list .box .header .barinfo .barname {
+  color: #151515;
+  margin-bottom: 5px;
+}
+.listshow .list .box .header .barinfo .barnumber {
+  color: #acacae;
+}
+.listshow .list .box .header .barinfo .barnumber span:nth-child(2) {
+  margin-right: 10px;
+}
+.listshow .list .box .context {
+  padding-left: 10px;
+}
+.listshow .list .box .context .p1 {
+  font-size: 20px;
+  color: #121214;
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding-top: 5px;
+}
+.listshow .list .box .context .p2 {
+  color: #151517;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.listshow .list .box .context .img1 {
+  margin-bottom: 20px;
+}
+.listshow .list .box .context .img1 img {
+  width: 50%;
+}
+.listshow .list .box .context .img2 {
+  margin-bottom: 20px;
+}
+.listshow .list .box .context .img2 img {
+  width: 35%;
+}
+.listshow .list .box .context .img3 {
+  margin-bottom: 20px;
+}
+.listshow .list .box .context .img3 img {
+  width: 25%;
+}
+.listshow .list .box .bottom {
+  display: flex;
+  color: #4d4d4d;
+  font-size: 15px;
+  justify-content: space-between;
+}
+.listshow .list .box .bottom div {
+  flex: 1;
+  text-align: center;
+}

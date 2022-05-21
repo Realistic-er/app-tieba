@@ -1,0 +1,71 @@
+.chat {
+  background-color: #ffffff;
+}
+.chat .header .van-nav-bar__title {
+  color: #101010;
+  font-weight: bold;
+}
+.chat .middle {
+  padding: 20px 0px;
+}
+.chat .middle ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.chat .middle ul li img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+.chat .middle ul li p {
+  font-size: 20px;
+  text-align: center;
+}
+.chat .bottom ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.chat .bottom ul li .left {
+  display: flex;
+  align-items: center;
+}
+.chat .bottom ul li .left img {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+.chat .bottom ul li .left .p p:nth-child(1) {
+  font-size: 20px;
+  color: #333333;
+}
+.chat .bottom ul li .left .p p:nth-child(2) {
+  font-size: 15px;
+  color: #a2a2a2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 200px;
+}
+.chat .bottom ul li .right p:nth-child(1) {
+  font-size: 15px;
+  color: #eaeaea;
+}
+.chat .bottom ul li .right p:nth-child(2) {
+  font-size: 0.26667rem;
+  background-color: #fd3c2e;
+  text-align: center;
+  border-radius: 46px;
+  padding: 7px;
+  width: 15px;
+  height: 15px;
+  line-height: 10px;
+  color: white;
+  margin: 0 auto;
+}
+.chat /deep/ .van-action-sheet__header {
+  color: #2f2f2f;
+}

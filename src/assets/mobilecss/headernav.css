@@ -1,0 +1,9 @@
+.van-tab--active {
+  color: #323233;
+  font-weight: bold;
+}
+.van-tabs__line {
+  width: 22px;
+  height: 5px;
+  background-color: #7359fb;
+}

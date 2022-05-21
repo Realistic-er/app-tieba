@@ -1,0 +1,39 @@
+.home {
+  overflow: hidden;
+}
+.home .header {
+  padding-top: 10px;
+  padding-left: 10px;
+  display: flex;
+  font-size: 15px;
+  color: #9c9c9e;
+  background-color: #f6f6f8;
+}
+.home .header .btn {
+  background-color: #efeff1;
+  width: 50%;
+  border-radius: 15px;
+  padding-left: 10px;
+  margin-right: 15px;
+}
+.home .header .btn .text {
+  margin-left: 10px;
+}
+.home .header .icon {
+  display: flex;
+}
+.home .header .icon .publish {
+  background-color: #7359fb;
+  border-radius: 15px;
+  color: #fffeff;
+  margin-left: 10px;
+  padding-left: 4px;
+  padding-right: 5px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .context {
+  background-color: #f2f2f4;
+}

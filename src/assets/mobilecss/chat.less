@@ -1,0 +1,85 @@
+.chat {
+    background-color: #ffffff;
+    .header {
+        .van-nav-bar__title {
+            color:#101010;
+            font-weight:bold;
+        }
+        .van-nav-bar__right {
+        }
+    }
+    .middle {
+        padding: 20px 0px;
+        ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            li {
+                img {
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 10px;
+                }
+                p {
+                    font-size: 20px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .bottom {
+        ul {
+            li {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px;
+                .left {
+                    display: flex;
+                    align-items: center;
+                    img {
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 30px;
+                        margin-right: 10px;
+                    }
+                    .p {
+                        p:nth-child(1) {
+                            font-size:20px;
+                            color:#333333;
+                        }
+                        p:nth-child(2) {
+                            font-size:15px;
+                            color:#a2a2a2;
+                            overflow: hidden;
+                            text-overflow:ellipsis;
+                            white-space: nowrap;
+                            width: 200px;
+                        }
+                    }
+                }
+                .right {
+                    p:nth-child(1) {
+                        font-size:15px;
+                        color:#eaeaea;
+                    }
+                    p:nth-child(2) {
+                        font-size: 0.26667rem;
+                        background-color: #fd3c2e;
+                        text-align: center;
+                        border-radius: 46px;
+                        padding: 7px;
+                        width: 15px;
+                        height: 15px;
+                        line-height: 10px;
+                        color: white;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+    /deep/ .van-action-sheet__header{
+        color:#2f2f2f;
+    }
+}

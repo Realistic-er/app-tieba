@@ -1,0 +1,210 @@
+.user {
+    padding: 10px;
+    padding-bottom: 100px;
+    .userheader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        .photo {
+            display: flex;
+            align-items: center;
+            img {
+                width:60px;
+                height:60px;
+                border-radius: 30px;
+            }
+            .info {
+                margin-left: 20px;
+                p:nth-child(1) {
+                    font-weight:bold;
+                    color:#141414;
+                    font-size:20px;
+                }
+                p:nth-child(2) {
+                    span {
+                        color: #535353;
+                        font-size:15px;
+                    }
+                }
+            }
+        }
+    }
+    .barinfo {
+        margin-bottom: 20px;
+        ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            li {
+                p:nth-child(1) {
+                    color:#111113;
+                    font-size:20px;
+                    font-weight:bold;
+                    text-align: center;
+                }
+                p:nth-child(2) {
+                    font-size:15px;
+                    color:#5e5e60;
+                }
+            }
+        }
+    }
+    .swipe {
+        img {
+            width:100%;
+        }
+    }
+    .money {
+        padding: 10px 5px;
+        border-radius: 20px;
+        border: 1px solid #f2f2f4;
+        margin-bottom: 20px;
+        .header {
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            .mymoney {
+                font-size: 20px;
+                color:#121212;
+                font-weight:bold;
+                
+                line-height:20px;
+            }
+            .erdu {
+                display: flex;
+                align-items: center;
+                span:nth-child(1) {
+                    font-size:10px;
+                    margin-right: 10px;
+                    color:#5c5c5c;
+                }
+            }
+        }
+        
+        ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            li {
+                img {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 20px;
+                }
+                p:nth-child(2) {
+                    color:#1a181a;
+                    font-size:15px;
+
+                }
+                p:nth-child(3) {
+                    color:#afafaf;
+                    font-size:10px;
+                }
+            }
+        }
+    }
+    .middle {
+        overflow-y: scroll;
+        overflow-x: hidden;
+        .divfather {
+            white-space: nowrap;
+            overflow-x: auto;
+            .div1 {
+                padding: 10px;
+                display: inline-block;
+                width: 335px;
+                .header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom:30px;
+                    span {
+                        font-weight:20px;
+                        font-size:20px;
+                        color:#161616;
+                        font-weight:bold;
+                    }
+                }
+                .middle1 {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    .big {
+                        span {
+                            margin-left:10px;
+                            font-size:15px;
+                            color:#1b191a;
+                            font-weight:bold;
+                        }
+                    }
+                    .data {
+                        span {
+                            margin-left:10px;
+                            font-size:15px;
+                            color:#1b191a;
+                            font-weight:bold;
+                        }
+                    }
+                }
+                .bottom {
+                    ul {
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        li {
+                            text-align: center;
+                            p:nth-child(1) {
+                                color:#151515;
+                                font-size:15px;
+                            }
+                            p:nth-child(2) {
+                                color:#a2a2a2;
+                                font-size:10px;
+                            }
+                            p:nth-child(3) {
+                                color:#a2a2a2;
+                                font-size:10px;
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .div2 {
+                display: inline-block;
+                width: 335px;
+                .header {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    span {
+                        font-size:20px;
+                        color:#1b191a;
+                    }
+                }
+                .middle1 {
+                    padding: 20px 0;
+                    ul {
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        background-color: #fdf8e5                    ;
+                        li {
+                            margin-bottom:20px;
+                            span {
+                                color:#6f4d23;
+                                font-size:15px;
+                                margin-left:20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+    
+}

@@ -1,0 +1,30 @@
+.live {
+  padding: 10px;
+  width: 100%;
+}
+.live ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.live ul li {
+  width: 44%;
+  padding: 5px 5px;
+  height: 150px;
+  margin-right: 8px;
+  margin-bottom: 10px;
+}
+.live ul li .text .text1 {
+  font-size: 10px;
+  color: #c1beb7;
+  margin-bottom: 100px;
+}
+.live ul li .text .text2 span:nth-child(1) {
+  font-size: 15px;
+  color: #fcffff;
+  font-weight: bold;
+  margin-right: 30px;
+}
+.live ul li .text .text2 span:nth-child(2) {
+  font-size: 10px;
+  color: #fbfdfd;
+}

@@ -1,0 +1,256 @@
+.articledetail {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 65px;
+}
+.articledetail .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 999;
+}
+.articledetail .header .middle {
+  background-color: #f3f3f3;
+  line-height: 25px;
+  padding: 5px 5px;
+  border-radius: 18px;
+}
+.articledetail .header .middle img {
+  width: 30px;
+  border-radius: 15px;
+}
+.articledetail .header .middle span {
+  font-size: 20px;
+  color: #151515;
+  margin-left: 15px;
+}
+.articledetail .header .popup {
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+.articledetail .header .popup ul {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.articledetail .header .popup ul li p:nth-child(1) {
+  display: flex;
+  justify-content: center;
+}
+.articledetail .header .popup ul li p:nth-child(2) {
+  font-size: 15px;
+  color: #535353;
+}
+.articledetail .header .popup .van-slider {
+  margin-bottom: 20px;
+}
+.articledetail .header .popup .span {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+.articledetail .context {
+  padding-top: 20px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.articledetail .context .userinfo .headercontext {
+  margin-bottom: 30px;
+}
+.articledetail .context .userinfo .headercontext .title {
+  color: #0c0c0c;
+  font-weight: bold;
+  font-size: 25px;
+}
+.articledetail .context .userinfo .headercontext .user {
+  display: flex;
+  align-items: center;
+}
+.articledetail .context .userinfo .headercontext .user .userphoto {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.articledetail .context .userinfo .headercontext .user .textinfo {
+  margin-left: 10px;
+}
+.articledetail .context .userinfo .headercontext .user .textinfo .username {
+  color: #d1584c;
+  font-weight: bold;
+  font-size: 20px;
+}
+.articledetail .context .userinfo .headercontext .user .textinfo .articletime {
+  font-size: 18px;
+  color: #b2afb0;
+}
+.articledetail .context .userinfo .headercontext .user .btn {
+  color: #433679;
+  background-color: #f3f2f8;
+  border-radius: 19px;
+  display: inline-block;
+  border: 1px solid #433679;
+  position: absolute;
+  right: 10px;
+  font-size: 17px;
+}
+.articledetail .context .userinfo .headercontext .paragraph {
+  color: #131313;
+  font-weight: bold;
+}
+.articledetail .context .userinfo .headercontext .photo {
+  width: 100%;
+}
+.articledetail .context .userinfo .usertail {
+  margin-bottom: 30px;
+}
+.articledetail .context .userinfo .usertail .tail {
+  color: #a2a2a2;
+  font-size: 15px;
+}
+.articledetail .context .userinfo .icons {
+  margin-bottom: 10px;
+}
+.articledetail .context .userinfo .icons ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.articledetail .context .userinfo .icons ul li {
+  margin: 0 auto;
+}
+.articledetail .context .userinfo .icons ul li .img {
+  width: 40px;
+  height: 40px;
+  border-radius: 160px;
+  margin: 0 auto;
+  display: block;
+}
+.articledetail .context .userinfo .icons ul li p:nth-child(2) {
+  color: #585657;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+.articledetail .context .userinfo .bardetail {
+  border-top: 2px solid #f6f6f6;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+.articledetail .context .userinfo .bardetail .info {
+  display: flex;
+  align-items: center;
+}
+.articledetail .context .userinfo .bardetail .info .img {
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+}
+.articledetail .context .userinfo .bardetail .info .text {
+  margin-left: 15px;
+}
+.articledetail .context .userinfo .bardetail .info .text p:nth-child(1) {
+  color: #121212;
+  font-weight: bold;
+  font-size: 20px;
+}
+.articledetail .context .userinfo .bardetail .info .text p:nth-child(2) {
+  color: #a1a1a1;
+  font-size: 15px;
+}
+.articledetail .context .userinfo .bardetail .info .text p:nth-child(2) span {
+  margin-right: 5px;
+}
+.articledetail .context .userinfo .bardetail .info .arrow {
+  position: absolute;
+  right: 50px;
+}
+.articledetail .context .advertisement .text {
+  color: #1a1a1a;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.articledetail .context .advertisement .img {
+  width: 98%;
+  margin-bottom: 20px;
+}
+.articledetail .context .advertisement .link {
+  background-color: #f7f7f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.articledetail .context .advertisement .link .introduce p:nth-child(1) span:nth-child(1) {
+  font-weight: bold;
+  color: #4e4e4e;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.articledetail .context .advertisement .link .introduce p:nth-child(1) span:nth-child(2) {
+  font-size: 15px;
+  color: #bababa;
+}
+.articledetail .context .advertisement .link .introduce p:nth-child(2) span:nth-child(1) {
+  font-size: 15px;
+  color: #bababa;
+  margin-right: 10px;
+}
+.articledetail .context .advertisement .link .introduce p:nth-child(2) span:nth-child(2) {
+  font-size: 15px;
+  color: #bababa;
+  margin-right: 10px;
+}
+.articledetail .context .advertisement .link .introduce p:nth-child(2) span:nth-child(3) {
+  font-size: 15px;
+  margin-right: 10px;
+  color: #bababa;
+}
+.articledetail .context .advertisement .link .btn {
+  background-color: #eae7fa;
+  /* display: inline-block; */
+  font-size: 20px;
+  /* line-height: 20px; */
+  height: 30px;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+.articledetail .context .advertisement .bottomcancel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.articledetail .context .advertisement .bottomcancel p {
+  color: #a9a9a9;
+  font-size: 15px;
+}
+.articledetail .context .bottom {
+  display: flex;
+  position: fixed;
+  background-color: white;
+  bottom: 0;
+  z-index: 999;
+  align-items: center;
+  width: 100%;
+}
+.articledetail .context .bottom .filedwidth {
+  flex: 1;
+}
+.articledetail .context .bottom .filedwidth img {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+.articledetail .context .bottom .icons {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 20px;
+}

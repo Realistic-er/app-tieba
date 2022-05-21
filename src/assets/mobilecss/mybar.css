@@ -1,0 +1,157 @@
+.boxbar {
+  padding: 0 10px;
+}
+.boxbar .bared {
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.boxbar .bared .text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.boxbar .bared .text span:nth-child(1) {
+  color: #111111;
+  font-weight: bold;
+  font-size: 25px;
+}
+.boxbar .bared .bar {
+  padding: 20px 0;
+}
+.boxbar .bared .bar ul {
+  display: flex;
+}
+.boxbar .bared .bar ul li {
+  margin-right: 10px;
+}
+.boxbar .bared .bar ul li .img {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  background-image: url("https://tieba-ares.cdn.bcebos.com/mis/2022-4/1651304720295/688c54f4cd87.JPG");
+  background-size: cover;
+  position: relative;
+}
+.boxbar .bared .bar ul li .img .info {
+  color: #feeeea;
+  font-size: 10px;
+  position: absolute;
+  right: 0;
+  background-color: #fc3b2b;
+  border-radius: 9px;
+  padding: 2px 5px;
+}
+.boxbar .bared .bar ul li p:nth-child(2) {
+  font-size: 10px;
+  text-align: center;
+  color: #0d0d0d;
+}
+.boxbar .bared .bar ul li p:nth-child(3) {
+  font-size: 10px;
+  text-align: center;
+  color: #a7a7a7;
+}
+.boxbar .barconcerned {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: white;
+}
+.boxbar .barconcerned .text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.boxbar .barconcerned .text span:nth-child(1) {
+  color: #111111;
+  font-weight: bold;
+  font-size: 25px;
+}
+.boxbar .barconcerned .barxun ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.boxbar .barconcerned .barxun ul li {
+  display: flex;
+  width: 45%;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-right: 15px;
+}
+.boxbar .barconcerned .barxun ul li .img {
+  width: 45px;
+  border-radius: 30px;
+}
+.boxbar .barconcerned .barxun ul li .texte {
+  font-size: 15px;
+}
+.boxbar .barconcerned .barxun ul li .span {
+  font-size: 10px;
+}
+.boxbar .hotbar {
+  padding-bottom: 100px;
+}
+.boxbar .hotbar .phot {
+  margin-bottom: 15px;
+}
+.boxbar .hotbar .box {
+  margin-bottom: 20px;
+}
+.boxbar .hotbar .box .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.boxbar .hotbar .box .info .tetx {
+  display: flex;
+}
+.boxbar .hotbar .box .info .tetx .img {
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+}
+.boxbar .hotbar .box .info .tetx .p {
+  margin-left: 10px;
+}
+.boxbar .hotbar .box .info .tetx .p .p1 {
+  font-size: 20px;
+  color: #181818;
+  margin-bottom: 10px;
+}
+.boxbar .hotbar .box .info .tetx .p .p2 {
+  font-size: 15px;
+  color: #a1a1a1;
+}
+.boxbar .hotbar .box .info .tetx .p .p2 span {
+  margin-right: 5px;
+}
+.boxbar .hotbar .box .info .btn {
+  background-color: #f3f2f8;
+  color: #6357a1;
+  padding: 5px 10px;
+  border-radius: 25px;
+  font-size: 15px;
+}
+.boxbar .hotbar ul {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.boxbar .hotbar ul li {
+  margin-right: 20px;
+}
+.boxbar .hotbar ul li .img {
+  width: 100px;
+  height: 100px;
+}
+.boxbar .hotbar ul li p {
+  font-size: 15px;
+  width: 100px;
+}
+.boxbar .hotbar ul::-webkit-scrollbar {
+  display: none;
+}

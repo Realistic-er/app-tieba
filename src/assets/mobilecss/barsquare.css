@@ -1,0 +1,56 @@
+.barsquare {
+  display: flex;
+  padding: 20px 10px;
+  background-color: #ffffff;
+}
+.barsquare .left {
+  width: 50px;
+  font-size: 20px;
+  background-color: #f7f7f9;
+}
+.barsquare .left .leftmodule {
+  margin-bottom: 30px;
+}
+.barsquare .left .leftmodulesss {
+  border: 1px solid red;
+  background-color: #ffffff;
+}
+.barsquare .right {
+  height: 100%;
+  padding-left: 5px;
+  width: calc(100% - 50px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: #ffffff;
+}
+.barsquare .right ul li {
+  display: flex;
+  align-items: center;
+}
+.barsquare .right ul li .img .imgsrc {
+  width: 70px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.barsquare .right ul li .info {
+  margin-right: 5px;
+}
+.barsquare .right ul li .info .barname {
+  font-size: 20px;
+  color: #101010;
+}
+.barsquare .right ul li .info p span {
+  font-size: 15px;
+  color: #a2a2a2;
+  margin-right: 5px;
+}
+.barsquare .right ul li .btn {
+  background-color: #f4f2ff;
+  padding: 5px;
+  font-size: 15px;
+  color: #7b6ac0;
+  border-radius: 10px;
+}
+.barsquare .right::-webkit-scrollbar {
+  display: none;
+}
